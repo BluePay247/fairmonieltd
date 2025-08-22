@@ -13,12 +13,12 @@ interface JoinGroupProps {
 
 const JoinGroup: React.FC<JoinGroupProps> = ({ isOpen, onClose, onBack }) => {
   const handleTelegramJoin = () => {
-    window.open('https://t.me/fairmoney_earn_telegram_channel', '_blank');
+    window.open('https://t.me/+nJJaX-NtOo4wN2I0', '_blank');
     onClose();
   };
 
   const handleWhatsAppJoin = () => {
-    window.open('https://chat.whatsapp.com/Id4G5VXEXuv7wwEPbl3p4F?mode=ac_t', '_blank');
+    window.open('https://chat.whatsapp.com/JKPGIZrgbYCKIpudv6PDep?mode=ac_t', '_blank');
     onClose();
   };
 
