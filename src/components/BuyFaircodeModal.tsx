@@ -65,7 +65,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
   // Auto-speak when transfer notice is shown
   useEffect(() => {
     if (showTransferNotice) {
-      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 7,300 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment as this can lead to delays in verifying your payment click, I understand to continue your payment.`;
+      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 5,500 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment as this can lead to delays in verifying your payment click, I understand to continue your payment.`;
 
       enableSpeech();
       const t = setTimeout(() => {
@@ -323,7 +323,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Number</p>
-                      <p className="font-semibold text-sm">0118697498</p>
+                      <p className="font-semibold text-sm">5094836750</p>
                     </div>
                     <button
                       onClick={handleCopyAccountNumber}
@@ -336,14 +336,14 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Bank</p>
-                      <p className="font-semibold text-sm">Sterling Bank</p>
+                      <p className="font-semibold text-sm">MONIEPOINT MFB</p>
                     </div>
                   </div>
 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Name</p>
-                      <p className="font-semibold text-sm">Fairpay-jude samuel</p>
+                      <p className="font-semibold text-sm">VICTORIA-EKPO UMOH</p>
                     </div>
                   </div>
                 </div>
