@@ -88,7 +88,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
 
   const handleCopyAccountNumber = () => {
     enableSpeech();
-    navigator.clipboard.writeText('0118697498').then(() => {
+    navigator.clipboard.writeText('5094836750').then(() => {
       toast({
         title: "Copied!",
         description: "Account number copied to clipboard",
