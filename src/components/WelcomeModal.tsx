@@ -12,7 +12,7 @@ interface WelcomeModalProps {
 
 const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose, userName }) => {
   const handleTelegramJoin = () => {
-    window.open('https://t.me/fairmoney_earn_telegram_channel', '_blank');
+    window.open('https://t.me/+nJJaX-NtOo4wN2I0', '_blank');
     onClose();
   };
 
