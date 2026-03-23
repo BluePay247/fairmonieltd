@@ -88,7 +88,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
 
   const handleCopyAccountNumber = () => {
     enableSpeech();
-    navigator.clipboard.writeText('5934039343').then(() => {
+    navigator.clipboard.writeText('5245141096').then(() => {
       toast({
         title: "Copied!",
         description: "Account number copied to clipboard",
@@ -227,7 +227,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
             </CardHeader>
             <CardContent className="p-6 space-y-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">₦5,500</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">₦7,500</div>
                 <p className="text-gray-600">One-time purchase</p>
               </div>
 
@@ -323,7 +323,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Number</p>
-                      <p className="font-semibold text-sm">5934039343</p>
+                      <p className="font-semibold text-sm">5245141096</p>
                     </div>
                     <button
                       onClick={handleCopyAccountNumber}
@@ -343,14 +343,14 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Name</p>
-                      <p className="font-semibold text-sm">JOSHUA .C. AMADI</p>
+                      <p className="font-semibold text-sm">BOMA HARRIET</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="p-2 bg-green-50 border border-green-200 rounded">
                   <p className="text-xs text-gray-600">Fee</p>
-                  <p className="text-xl font-bold text-green-600">5,500</p>
+                  <p className="text-xl font-bold text-green-600">7,500</p>
                 </div>
 
                 {/* NEW: Upload Image (required) */}
@@ -435,7 +435,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                 </div>
               </div>
 
-              <h2 className="text-xl font-semibold">Pay NGN 5,500.00</h2>
+              <h2 className="text-xl font-semibold">Pay NGN 7,500.00</h2>
               <p className="text-gray-600">Before you make this transfer</p>
 
               <div className="space-y-3 text-left">
