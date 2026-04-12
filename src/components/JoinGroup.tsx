@@ -18,7 +18,7 @@ const JoinGroup: React.FC<JoinGroupProps> = ({ isOpen, onClose, onBack }) => {
   };
 
   const handleWhatsAppJoin = () => {
-    window.open('https://chat.whatsapp.com/FFxzX2wRsUMFlCAX1rhiWs?mode=gi_t', '_blank');
+    window.open('https://t.me/bestniajaupdate', '_blank');
     onClose();
   };
 
