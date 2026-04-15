@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+ import React, { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -88,7 +88,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
 
   const handleCopyAccountNumber = () => {
     enableSpeech();
-    navigator.clipboard.writeText('5245141096').then(() => {
+    navigator.clipboard.writeText('0100775499').then(() => {
       toast({
         title: "Copied!",
         description: "Account number copied to clipboard",
@@ -323,7 +323,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Number</p>
-                      <p className="font-semibold text-sm">5245141096</p>
+                      <p className="font-semibold text-sm">0100775499</p>
                     </div>
                     <button
                       onClick={handleCopyAccountNumber}
@@ -336,14 +336,14 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Bank</p>
-                      <p className="font-semibold text-sm">MONIEPOINT MFB</p>
+                      <p className="font-semibold text-sm">SAFE HAVEN MFB</p>
                     </div>
                   </div>
 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Name</p>
-                      <p className="font-semibold text-sm">BOMA HARRIET</p>
+                      <p className="font-semibold text-sm">OKANEZI PRINCE</p>
                     </div>
                   </div>
                 </div>
