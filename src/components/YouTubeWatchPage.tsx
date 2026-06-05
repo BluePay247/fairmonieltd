@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowLeft } from 'lucide-react';
 
@@ -7,9 +6,9 @@ interface YouTubeWatchPageProps {
 }
 
 const YouTubeWatchPage: React.FC<YouTubeWatchPageProps> = ({ onBack }) => {
-  // Extract video ID from the YouTube Shorts URL
-  const videoId = 'x8rmRxY-qbc';
-  const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+  // Dailymotion Video ID
+  const videoId = 'xad4goc';
+  const embedUrl = `https://www.dailymotion.com/embed/video/${videoId}`;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -22,7 +21,9 @@ const YouTubeWatchPage: React.FC<YouTubeWatchPageProps> = ({ onBack }) => {
           >
             <ArrowLeft className="w-6 h-6 text-gray-600" />
           </button>
-          <h1 className="text-xl font-semibold text-gray-900">Watch Tutorial</h1>
+          <h1 className="text-xl font-semibold text-gray-900">
+            Watch Tutorial
+          </h1>
         </div>
       </div>
 
@@ -35,7 +36,7 @@ const YouTubeWatchPage: React.FC<YouTubeWatchPageProps> = ({ onBack }) => {
               title="Fairmonie Pay Tutorial"
               className="w-full h-full"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             />
           </div>
