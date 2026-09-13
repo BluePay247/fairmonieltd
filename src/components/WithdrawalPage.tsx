@@ -40,7 +40,7 @@ const WithdrawalPage: React.FC<WithdrawalPageProps> = ({ onBack, balance, onWith
     }
 
     // Check if fair code is correct
-    if (fairCode !== 'FC-0874938@Q') {
+    if (fairCode !== 'FC08451008') {
       setShowError(true);
       return;
     }
