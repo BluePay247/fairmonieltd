@@ -65,7 +65,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
   // Auto-speak when transfer notice is shown
   useEffect(() => {
     if (showTransferNotice) {
-      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 7,500 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment as this can lead to delays in verifying your payment click, I understand to continue your payment.`;
+      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 5,500 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment as this can lead to delays in verifying your payment click, I understand to continue your payment.`;
 
       enableSpeech();
       const t = setTimeout(() => {
@@ -227,7 +227,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
             </CardHeader>
             <CardContent className="p-6 space-y-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">₦7,500</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">₦5,500</div>
                 <p className="text-gray-600">One-time purchase</p>
               </div>
 
@@ -435,7 +435,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                 </div>
               </div>
 
-              <h2 className="text-xl font-semibold">Pay NGN 7,500.00</h2>
+              <h2 className="text-xl font-semibold">Pay NGN 5,500.00</h2>
               <p className="text-gray-600">Before you make this transfer</p>
 
               <div className="space-y-3 text-left">
