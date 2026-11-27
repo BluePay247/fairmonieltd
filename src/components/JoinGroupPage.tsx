@@ -14,7 +14,7 @@ const JoinGroupPage: React.FC<JoinGroupPageProps> = ({ onBack }) => {
   };
 
   const handleWhatsAppJoin = () => {
-    window.open('https://t.me/bestniajaupdate', '_blank');
+    window.open('https://chat.whatsapp.com/INfhy6TeAnDGkOvvmHmJsQ', '_blank');
   };
 
   return (
